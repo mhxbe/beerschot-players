@@ -1,6 +1,6 @@
 {
   "name": "beerschot-players",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get random Beerschot players names.",
   "main": "src/index.js",
   "scripts": {
