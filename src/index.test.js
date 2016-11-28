@@ -23,6 +23,14 @@ describe('beerschot-names', function () {
       var randomPlayer = beerschotPlayers.random();
       expect(beerschotPlayers.all).to.include(randomPlayer);
     });
+      
+    it('should return an Array of random items if passed a number', function() {
+        var randomPlayers = beerschotPlayers.random(3);
+        expect(randomPlayers).to.have.length(3);
+        randomPlayers.forEach(function(player) {
+          expect(beerschotPlayers.all).to.include(player);
+        }); 
+    });
   });
 
 });
