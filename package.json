@@ -1,0 +1,27 @@
+{
+  "name": "beerschot-players",
+  "version": "1.0.0",
+  "description": "Get random Beerschot players names.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhxbe/beerschot-players.git"
+  },
+  "author": "Mike Henderyckx <mike.henderyckx@gmail.com> (http://mhx.be/)",
+  "license": "MIT",
+  "homepage": "https://github.com/mhxbe/beerschot-players.git",
+  "bugs": {
+    "url": "https://github.com/mhxbe/beerschot-players/issues"
+  },
+  "keywords": [
+    "random",
+    "beerschot",
+    "players"
+  ],
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
